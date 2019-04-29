@@ -1,0 +1,64 @@
+/* Acá va el color de fondo de la cabeza y centramos todo 
+#096F02 
+#074102
+*/
+#cabeza{
+		background-color: #074102;
+		text-align: center;
+		color: #F6F9F6;
+}
+
+/* Insertamos la imágen la posicionamos a la izquierda dando medidas */
+#logotipo{
+	float: left;
+  	width:200px;
+  	height:120px;
+}
+header nav ul{
+	list-style: none;
+	overflow: hidden;
+}
+header nav ul li{
+	float: left;
+}
+header nav ul li a{
+	display: block;
+	padding: 20px;
+	color: #F6F9F6;
+	text-decoration: none;
+}
+html{
+	background-color: #83CA7E;
+}
+
+#ima1{
+	padding-left: 20px;
+	padding-top: 0px;
+}
+
+#val h3{
+	padding-left: 1050px;
+}
+
+#text1 p:first-letter{
+  font-size: 2.5em;
+  font-weight: bold;
+  line-height: .9em;
+  float: left;
+  margin: .1em;
+}
+#text1{
+	height: 100px;
+	width: 850px;
+	text-align: justify;
+	padding-left: 20px;
+}
+
+#pie{
+	background-color: #074102;  
+	clear: both;  
+	margin-top: 30px;  
+	text-align: center; 
+	padding: 10px;  
+
+}
